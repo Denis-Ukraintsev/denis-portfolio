@@ -12,13 +12,21 @@ export default function Footer() {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
+              <a
+                href="https://vk.com/ukraintzev"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={vk} alt="link" />
               </a>
             </li>
 
             <li className="social__item">
-              <a href="#!">
+              <a
+                href="https://github.com/Denis-Ukraintsev"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={gitHub} alt="link" />
               </a>
             </li>
